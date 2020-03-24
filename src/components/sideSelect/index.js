@@ -10,5 +10,13 @@ export const SideSelect = ({ selectItems }) => {
       <Ellipsis />
     </div>
   ));
-  return <div className="side_select_container">{displaySelectBar}</div>;
+  return (
+    <>
+      <h2 className="analytics_text">Analytics</h2>
+      <div className="side_select_container">
+        <span className="side_select_container_text">Visits</span>
+        {displaySelectBar}
+      </div>
+    </>
+  );
 };

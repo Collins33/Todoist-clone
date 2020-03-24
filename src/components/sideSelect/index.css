@@ -1,7 +1,6 @@
 .side_select_container {
   width: 15%;
-  height: auto;
-  margin: 4%;
+  height: 1000px;
   background-color: var(--app-bg-color);
   /* box-shadow: 0 1px 0px 1px rgba(0,0,0,0.1); */
   border-radius: 5px;
@@ -12,6 +11,7 @@
   text-decoration: none;
   color: black;
   padding: 20px;
+  margin-left: 10%;
 }
 
 .side_bar_card {
@@ -41,4 +41,18 @@
 
 .card_item {
   margin-top: 15px;
+}
+
+.side_select_container_text {
+  margin-bottom: 30px;
+  margin-left: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+.analytics_text {
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
