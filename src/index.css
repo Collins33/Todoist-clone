@@ -3,6 +3,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lightgray;
 }
 
 code {
@@ -20,7 +21,7 @@ button {
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  border: 2px solid transparent;
+  border: 1px solid lightgray;
   padding: 0.625rem 1.25rem;
   font-size: 1rem;
   line-height: 1.5;
