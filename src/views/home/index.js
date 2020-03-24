@@ -5,20 +5,28 @@ class Home extends Component {
   state = {
     selectItems: [
       {
-        number: "1",
+        number: "7",
         name: "Kiambu"
       },
       {
-        number: "1",
-        name: "Kiambu"
+        number: "12",
+        name: "Mukuru kwa Ruben"
       },
       {
-        number: "1",
-        name: "Kiambu"
+        number: "26",
+        name: "Mukuru kwa Njenga"
       },
       {
-        number: "1",
-        name: "Kiambu"
+        number: "38",
+        name: "Baba Dogo"
+      },
+      {
+        number: "41",
+        name: "Kosovo"
+      },
+      {
+        number: "24",
+        name: "Mukuru Kayaba"
       }
     ]
   };
