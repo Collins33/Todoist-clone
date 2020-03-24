@@ -36,6 +36,16 @@
   background-color: white;
 }
 
+.side_bar_card:active {
+  color: white;
+  background-color: #3333cc;
+}
+
+.side_bar_card:hover {
+  color: white;
+  background-color: #3333cc;
+}
+
 .elipsis_container {
   display: flex;
   flex-direction: column;
