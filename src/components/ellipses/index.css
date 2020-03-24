@@ -1,0 +1,10 @@
+.ellipsis:after {
+  content: "•••";
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  font-size: 15px;
+  letter-spacing: 4px;
+  margin-top: 2px;
+}
