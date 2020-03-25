@@ -4,6 +4,7 @@
   height: 50px;
   background-color: whitesmoke;
   justify-content: space-around;
+  padding-top: 10px;
 }
 
 .profile_container {
