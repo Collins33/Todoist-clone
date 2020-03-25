@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ProgressBar from "../progressbar/index";
 import "./index.css";
 
 class Header extends Component {
@@ -9,7 +10,10 @@ class Header extends Component {
           <button>Add assessment +</button>
         </div>
         <div></div>
-        <div>24k/24k Patients seen</div>
+        <div>
+          <ProgressBar />
+          24k/24k Patients seen
+        </div>
         <div className="profile_container">
           <div>Collins Njau </div>
           <div>collinsnjau39@gmail.com</div>
