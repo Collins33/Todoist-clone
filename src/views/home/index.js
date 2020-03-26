@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "../../components/header/index";
 import { SideSelect } from "../../components/sideSelect/index";
+import { MonitorPeriod } from "../../components/period/index";
 import KeyIssues from "../../components/keyissues/index";
 import "./index.css";
 
@@ -68,6 +69,7 @@ class Home extends Component {
           <SideSelect selectItems={selectItems} />
           <div className="right_side_section">
             <KeyIssues keyIssuesData={keyIssuesData} />
+            <MonitorPeriod />
           </div>
         </div>
       </div>
