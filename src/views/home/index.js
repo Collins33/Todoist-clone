@@ -58,6 +58,26 @@ class Home extends Component {
         issue: "careless waste dispensing",
         location: "Kiambu"
       }
+    ],
+    statistics: [
+      {
+        topic: "Foot fall",
+        demography: "Patients",
+        number: "13k",
+        nps: "+0.2"
+      },
+      {
+        topic: "Patient Satisfaction",
+        demography: "NPS",
+        number: "7.8",
+        nps: "-0.1"
+      },
+      {
+        topic: "Revenue",
+        demography: "Kenyan Shilling",
+        number: "4.2m",
+        nps: "+2.4"
+      }
     ]
   };
   render() {
