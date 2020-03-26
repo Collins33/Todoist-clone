@@ -11,12 +11,12 @@ export const SideSelect = ({ selectItems }) => {
     </div>
   ));
   return (
-    <>
+    <div className="side_select_container">
       <h2 className="analytics_text">Analytics</h2>
-      <div className="side_select_container">
-        <span className="side_select_container_text">Visits</span>
+      <div className="side_select_main_card">
+        <span>Visits</span>
         {displaySelectBar}
       </div>
-    </>
+    </div>
   );
 };
