@@ -12,6 +12,8 @@
   text-decoration: none;
   color: black;
   background-color: white;
+  margin-top: 20px;
+  padding: 10px 0px 15px 10px;
 }
 
 .monitor_durations_container {
