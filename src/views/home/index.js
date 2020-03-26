@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../components/header/index";
 import { SideSelect } from "../../components/sideSelect/index";
 import { MonitorPeriod } from "../../components/period/index";
+import { Statistics } from "../../components/statistics/index";
 import KeyIssues from "../../components/keyissues/index";
 import "./index.css";
 
@@ -81,7 +82,7 @@ class Home extends Component {
     ]
   };
   render() {
-    const { selectItems, keyIssuesData } = this.state;
+    const { selectItems, keyIssuesData, statistics } = this.state;
     return (
       <div>
         <Header />
@@ -90,6 +91,7 @@ class Home extends Component {
           <div className="right_side_section">
             <KeyIssues keyIssuesData={keyIssuesData} />
             <MonitorPeriod />
+            <Statistics statistics={statistics} />
           </div>
         </div>
       </div>

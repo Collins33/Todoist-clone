@@ -1,0 +1,37 @@
+.statistics_container {
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px 15px 10px;
+}
+
+.statistics_card {
+  background-color: var(--app-bg-color);
+  /* box-shadow: 0 1px 0px 1px rgba(0,0,0,0.1); */
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px 50px 10px 10px;
+}
+
+.numbers_card_section {
+  display: flex;
+  flex-direction: row;
+}
+
+.text_stat_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stat_data {
+  margin-top: 10px;
+}
