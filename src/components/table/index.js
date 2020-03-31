@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ProgressBar from "../progressbar/index";
-
+import "./index.css";
 class index extends Component {
   state = {
     tableData: [
@@ -79,7 +79,7 @@ class index extends Component {
     const { tableData } = this.state;
     return (
       <div>
-        <table id="students">
+        <table id="statistics_table">
           <tbody>{this.renderTableData(tableData)}</tbody>
         </table>
       </div>
