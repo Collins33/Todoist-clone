@@ -4,6 +4,7 @@ import { SideSelect } from "../../components/sideSelect/index";
 import { MonitorPeriod } from "../../components/period/index";
 import { Statistics } from "../../components/statistics/index";
 import KeyIssues from "../../components/keyissues/index";
+import Table from "../../components/table/index";
 import "./index.css";
 
 class Home extends Component {
@@ -92,6 +93,7 @@ class Home extends Component {
             <KeyIssues keyIssuesData={keyIssuesData} />
             <MonitorPeriod />
             <Statistics statistics={statistics} />
+            <Table />
           </div>
         </div>
       </div>
