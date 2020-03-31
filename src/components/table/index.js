@@ -75,12 +75,22 @@ class index extends Component {
       );
     });
   }
+
+  renderTableHeader(tableData) {
+    let header = Object.keys(tableData[0]);
+    return header.map((key, index) => {
+      return <th key={index}>{key.toUpperCase()}</th>;
+    });
+  }
   render() {
     const { tableData } = this.state;
     return (
       <div>
         <table id="statistics_table">
-          <tbody>{this.renderTableData(tableData)}</tbody>
+          <tbody>
+            <tr>{this.renderTableHeader(tableData)}</tr>
+            {this.renderTableData(tableData)}
+          </tbody>
         </table>
       </div>
     );
