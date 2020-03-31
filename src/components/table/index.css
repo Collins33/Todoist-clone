@@ -7,19 +7,14 @@
   text-align: center;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  border: 3px solid #ddd;
+
   width: 90%;
 }
 
 #statistics_table td,
 #statistics_table th {
-  border: 1px solid #ddd;
   padding: 8px;
   width: auto;
-}
-
-#statistics_table tr:nth-child(even) {
-  background-color: #f2f2f2;
 }
 
 #statistics_table tr:hover {
