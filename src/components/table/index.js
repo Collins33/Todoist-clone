@@ -16,22 +16,22 @@ class index extends Component {
       },
       {
         id: "1",
-        name: "Mercy Mokua",
-        efficiencyDelta: "1,3",
-        delta: "+0.2",
+        name: "Kennedy Muoka",
+        efficiencyDelta: "1,8",
+        delta: "+0.4",
         nps: "1,2",
         npsDelta: "+0.3",
-        efficiency: 96,
+        efficiency: 92,
         issues: 3
       },
       {
         id: "1",
-        name: "Mercy Mokua",
-        efficiencyDelta: "1,3",
-        delta: "+0.2",
-        nps: "1,2",
-        npsDelta: "+0.3",
-        efficiency: 96,
+        name: "Stephen Tom",
+        efficiencyDelta: "2,7",
+        delta: "+0.4",
+        nps: "1,8",
+        npsDelta: "+0.2",
+        efficiency: 58,
         issues: 3
       },
       {
@@ -67,10 +67,10 @@ class index extends Component {
           <td>{delta}</td>
           <td>{nps}</td>
           <td>{npsDelta}</td>
+          <td>{issues}</td>
           <td>
             <ProgressBar percentage={efficiency} />
           </td>
-          <td>{issues}</td>
         </tr>
       );
     });

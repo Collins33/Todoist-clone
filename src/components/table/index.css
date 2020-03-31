@@ -15,6 +15,7 @@
 #statistics_table th {
   border: 1px solid #ddd;
   padding: 8px;
+  width: auto;
 }
 
 #statistics_table tr:nth-child(even) {
