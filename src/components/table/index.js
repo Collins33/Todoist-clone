@@ -68,7 +68,7 @@ class index extends Component {
           <td>{nps}</td>
           <td>{npsDelta}</td>
           <td>
-            <ProgressBar />
+            <ProgressBar percentage={efficiency} />
           </td>
           <td>{issues}</td>
         </tr>

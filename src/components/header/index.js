@@ -12,7 +12,7 @@ class Header extends Component {
         </div>
         <div></div>
         <div>
-          <ProgressBar />
+          <ProgressBar percentage={60} />
           24k/24k Patients seen
         </div>
         <div className="profile_details_container">
