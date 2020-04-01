@@ -36,3 +36,11 @@
 .stat_data {
   margin-top: 10px;
 }
+
+.box {
+  width: 500px;
+  border: solid 5px #000;
+  border-color: red transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+  margin-left: 20px;
+}

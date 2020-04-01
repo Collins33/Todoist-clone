@@ -11,7 +11,7 @@ export const Statistics = ({ statistics }) => {
           <div className="stat_data">{item.demography}</div>
           <div className="stat_data">{item.nps}</div>
         </div>
-        <div>Graph</div>
+        <div className="box"></div>
       </div>
     </div>
   ));
