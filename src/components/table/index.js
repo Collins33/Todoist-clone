@@ -5,44 +5,36 @@ class index extends Component {
   state = {
     tableData: [
       {
-        id: "1",
-        name: "Mercy Mokua",
-        efficiencyDelta: "1,3",
-        delta: "+0.2",
-        nps: "1,2",
-        npsDelta: "+0.3",
-        efficiency: 96,
-        issues: 3
+        No: "1",
+        StaffName: "Mercy Mokua",
+        EfficiencyDelta: { value: "1,3", point: "+0.2" },
+        NpsDelta: { value: "1,2", point: "0.3" },
+        Efficiency: 96,
+        ReportedIssues: 3
       },
       {
-        id: "1",
-        name: "Kennedy Muoka",
-        efficiencyDelta: "1,8",
-        delta: "+0.4",
-        nps: "1,2",
-        npsDelta: "+0.3",
-        efficiency: 92,
-        issues: 3
+        No: "2",
+        StaffName: "Kennedy Anyako",
+        EfficiencyDelta: { value: "1,8", point: "+0.4" },
+        NpsDelta: { value: "1,8", point: "0.2" },
+        Efficiency: 92,
+        ReportedIssues: 6
       },
       {
-        id: "1",
-        name: "Stephen Tom",
-        efficiencyDelta: "2,7",
-        delta: "+0.4",
-        nps: "1,8",
-        npsDelta: "+0.2",
-        efficiency: 58,
-        issues: 3
+        No: "3",
+        StaffName: "Stephen Tom",
+        EfficiencyDelta: { value: "1,3", point: "+0.2" },
+        NpsDelta: { value: "1,2", point: "0.3" },
+        Efficiency: 58,
+        ReportedIssues: 1
       },
       {
-        id: "1",
-        name: "Mercy Mokua",
-        efficiencyDelta: "1,3",
-        delta: "+0.2",
-        nps: "1,2",
-        npsDelta: "+0.3",
-        efficiency: 96,
-        issues: 3
+        No: "4",
+        StaffName: "Faith Kitiyo",
+        EfficiencyDelta: { value: "1,3", point: "+0.2" },
+        NpsDelta: { value: "1,2", point: "0.3" },
+        Efficiency: 74,
+        ReportedIssues: 8
       }
     ]
   };
@@ -50,26 +42,31 @@ class index extends Component {
   renderTableData(tableData) {
     return tableData.map((data, index) => {
       const {
-        id,
-        name,
-        efficiencyDelta,
-        delta,
-        nps,
-        npsDelta,
-        efficiency,
-        issues
+        No,
+        StaffName,
+        EfficiencyDelta,
+        NpsDelta,
+        Efficiency,
+        ReportedIssues
       } = data;
       return (
         <tr key={index}>
-          <td>{id}</td>
-          <td>{name}</td>
-          <td>{efficiencyDelta}</td>
-          <td>{delta}</td>
-          <td>{nps}</td>
-          <td>{npsDelta}</td>
-          <td>{issues}</td>
+          <td>{No}</td>
+          <td>{StaffName}</td>
           <td>
-            <ProgressBar percentage={efficiency} />
+            {EfficiencyDelta.value} {EfficiencyDelta.point}
+          </td>
+          <td>
+            {NpsDelta.value}
+            {NpsDelta.point}
+          </td>
+          <td>
+            {`${Efficiency}%`}
+            <ProgressBar percentage={Efficiency} />
+          </td>
+          <td>
+            {ReportedIssues}
+            <ProgressBar percentage={`${ReportedIssues}0`} />
           </td>
         </tr>
       );

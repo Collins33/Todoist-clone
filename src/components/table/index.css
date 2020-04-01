@@ -38,3 +38,8 @@
   text-align: center;
   color: black;
 }
+
+.table_percentage {
+  display: flex;
+  flex-direction: row;
+}
