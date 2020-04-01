@@ -29,8 +29,17 @@
     "Lucida Sans", Arial, sans-serif;
   position: relative;
   text-decoration: none;
-  color: black;
+  color: #3333cc;
   background-color: white;
   margin: 30px;
   padding: 15px;
+}
+
+.period_mini_card:active {
+  border: 1px solid #3333cc;
+}
+
+.period_mini_card:hover {
+  border: 1px solid #3333cc;
+  cursor: pointer;
 }

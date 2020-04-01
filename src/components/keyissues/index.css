@@ -45,3 +45,11 @@
   margin-right: 10px;
   margin-bottom: 10px;
 }
+
+.key_issues_card:active {
+  border: 1px solid #3333cc;
+}
+
+.key_issues_card:hover {
+  border: 1px solid #3333cc;
+}

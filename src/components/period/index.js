@@ -5,10 +5,10 @@ export const MonitorPeriod = () => {
   return (
     <div className="monitor_period_container">
       <div className="monitor_durations_container">
-        <div>Day</div>
-        <div>Week</div>
-        <div>Month</div>
-        <div>Year</div>
+        <div className="period_mini_card">Day</div>
+        <div className="period_mini_card">Week</div>
+        <div className="period_mini_card">Month</div>
+        <div className="period_mini_card">Year</div>
       </div>
       <div className="monitor_durations_container">
         <div>10 Dec 2019 - 10 Jan 2020</div>
