@@ -14,7 +14,7 @@ export const KeyIssues = ({ keyIssuesData }) => {
   ));
   return (
     <div className="key_issues_main_card">
-      <div>Key Issues</div>
+      <div className="heading_text">Key Issues</div>
       <div className="key_issues_display">{displayKeyIssuesBar}</div>
     </div>
   );

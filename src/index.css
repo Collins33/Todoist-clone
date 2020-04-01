@@ -29,3 +29,8 @@ button {
   border-radius: 0.25rem;
   cursor: pointer;
 }
+
+.heading_text {
+  color: #787878;
+  margin-bottom: 30px;
+}

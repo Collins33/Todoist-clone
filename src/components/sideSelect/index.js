@@ -14,7 +14,7 @@ export const SideSelect = ({ selectItems }) => {
     <div className="side_select_container">
       <h2 className="analytics_text">Analytics</h2>
       <div className="side_select_main_card">
-        <span>Visits</span>
+        <span className="heading_text">Visits</span>
         {displaySelectBar}
       </div>
     </div>
