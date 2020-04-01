@@ -1,9 +1,7 @@
 #title {
-  text-align: center;
   font-family: arial, sans-serif;
 }
 #statistics_table {
-  text-align: center;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 90%;
@@ -35,7 +33,6 @@
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
   padding-top: 12px;
   padding-bottom: 12px;
-  text-align: center;
   color: black;
 }
 

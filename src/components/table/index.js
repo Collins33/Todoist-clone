@@ -57,8 +57,7 @@ class index extends Component {
             {EfficiencyDelta.value} {EfficiencyDelta.point}
           </td>
           <td>
-            {NpsDelta.value}
-            {NpsDelta.point}
+            {NpsDelta.value} {NpsDelta.point}
           </td>
           <td>
             {`${Efficiency}%`}
